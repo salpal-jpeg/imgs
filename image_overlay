@@ -1,0 +1,43 @@
+<div class="container">
+  <style>
+    .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color: #EAB98C;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+    
+.text {
+  color: #F4EBE0;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+  </style>
+  <container>
+<!-- all tou need to do change the src of the image and text -->
+ <img src="https://github.com/salpal-jpeg/imgs/blob/main/lowrate.png?raw=true" alt="Avatar" class="image"> 
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
