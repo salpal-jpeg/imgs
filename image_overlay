@@ -42,7 +42,12 @@
   text-align: left; /* Center the list items horizontally */
   list-style-position: inside; /* Place the list markers inside the list items */
   overflow-wrap: break-word; /* Word wrap to prevent overflow */
-  marg
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* N
 
 }
   </style>
