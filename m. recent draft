@@ -1,0 +1,74 @@
+<div class="container">
+  <style>
+    .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  
+  transition: .2s ease;
+  background-color: #;
+
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container:hover .image {
+  opacity: .5;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+    
+.text {
+  color: #F4EBE0;
+ font-size: 12px;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color:red;
+  display:flex;
+  flex-wrap:wrap;
+  margin-right:55px;
+}
+
+.centered-list {
+  text-align: left; /* Center the list items horizontally */
+  list-style-position: inside; /* Place the list markers inside the list items */
+  overflow-wrap: break-word; /* Word wrap to prevent overflow */
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* N
+
+}
+  </style>
+  <container>
+ <img src="https://github.com/salpal-jpeg/imgs/blob/main/lowrate.png?raw=true" alt="Avatar" class="image"> 
+  <div class="overlay">
+ <div class="centered-list">
+        <h4>This tier is for you if...</h4>
+        <ol>
+            <li>Have limited expendable income</li>
+            <li>Have little to no savings</li>
+            <li>Are very stressed about affording needs</li>
+            <li>Are underemployed</li>
+            <li>Cannot afford to take time off or vacation</li>
+        
+            <!-- Add more list items as needed -->
+        </ol>
+    </div>
+  </div>
+</div>
