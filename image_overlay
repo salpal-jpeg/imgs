@@ -10,7 +10,8 @@
   width: 100%;
   opacity: 0;
   transition: .2s ease;
-  background-color: #EAB98C;
+  background-color: #EAB98;
+
 }
 .container:hover .overlay {
   opacity: 1;
@@ -24,20 +25,38 @@
     
 .text {
   color: #F4EBE0;
-  font-size: 20px;
+ font-size: 12px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 40%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: left;
+  background-color:red;
+  display:flex;
+  flex-wrap:wrap;
+  margin-right:55px;
+}
+
+.centered-list {
+  text-align: left; /* Center the list items horizontally */
+  list-style-position: inside; /* Place the list markers inside the list items */
+  overflow-wrap: break-word; /* Word wrap to prevent overflow */
+  marg
+
 }
   </style>
   <container>
-<!-- all tou need to do change the src of the image and text -->
  <img src="https://github.com/salpal-jpeg/imgs/blob/main/lowrate.png?raw=true" alt="Avatar" class="image"> 
   <div class="overlay">
-    <div class="text">Hello World</div>
+ <div class="centered-list">
+        <h4>My Centered Ordered List</h4>
+        <ol>
+            <li>First Item</li>
+            <li>Second Item with a longer text that should wrap inside the container</li>
+            <li>Third Item</li>
+            <!-- Add more list items as needed -->
+        </ol>
+    </div>
   </div>
 </div>
