@@ -69,7 +69,7 @@
   <div class="overlay">
  <div class="centered-list">
         <h4>This tier is for you if...</h4>
-        <ol>
+        <ul>
             <li>Have limited expendable income</li>
             <li>Have little to no savings</li>
             <li>Are very stressed about affording needs</li>
@@ -77,7 +77,7 @@
             <li>Cannot afford to take time off or vacation</li>
         
             <!-- Add more list items as needed -->
-        </ol>
+        </ul>
     </div>
   </div>
 </div>
