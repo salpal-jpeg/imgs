@@ -2,93 +2,9 @@
   <style>
     .overlay {
   position: absolute;
-  top: 25%;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   height: 100%;
   width: 100%;
-  
-  transition: .2s ease;
-  background-color: #;
-
-}
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.container:hover .image {
-  opacity: .4;
-}
-
-.container:hover .centered-list{
-  opacity:1;
-  transition: .2s ease;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-    
-.text {
- opacity:0;
-  color: #F4EBE0;
- font-size: 12px;
-  position: absolute;
-  top: 20%;
-  left: 40%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  background-color:red;
-  display:flex;
-  flex-wrap:wrap;
-  margin-right:55px;
-}
-
-.centered-list {
-  opacity:0;
-  text-align: left; /* Center the list items horizontally */
-  list-style-position: inside; /* Place the list markers inside the list items */
-  overflow-wrap: break-word; /* Word wrap to prevent overflow */
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* N
-  }
-<!--NEW-->
-img {
-    opacity: 0.6;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-}
-img:hover {
-    opacity: 1.0;
-    transition: opacity .55s ease-in-out;
-    -moz-transition: opacity .55s ease-in-out;
-    -webkit-transition: opacity .55s ease-in-out;
-}​
-<!--NEW-->
-  </style>
-  <container>
- <img src="https://github.com/salpal-jpeg/imgs/blob/main/lowrate.png?raw=true" alt="Avatar" class="image"> 
-  <div class="overlay">
- <div class="centered-list">
-        <h4>This tier is for you if...</h4>
-        <ul>
-            <li>Have limited expendable income</li>
-            <li>Have little to no savings</li>
-            <li>Are very stressed about affording needs</li>
-            <li>Are underemployed</li>
-            <li>Cannot afford to take time off or vacation</li>
-        
-            <!-- Add more list items as needed -->
-        </ul>
-    </div>
-  </div>
-</div>
